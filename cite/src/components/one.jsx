@@ -53,6 +53,14 @@ const One = () => {
             value={year}
           />
         </div>
+        <div className="mb-8">
+          <label htmlFor="year" className="block text-gray-600 mb-2">Select the Citation Style</label>
+          <select name="" id="" className='w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500'>
+            <option value="">Select the Citation Style</option>
+            <option value="">APA</option>
+            <option value="">Harvard</option>
+          </select>
+        </div>
 
         <div className="text-center">
           <button
